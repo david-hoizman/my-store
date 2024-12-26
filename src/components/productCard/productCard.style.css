@@ -1,0 +1,47 @@
+.cardBox{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 80%;
+    height: 20%;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 18px;
+}
+.imgBox{
+    justify-content: center;
+    text-align: center;
+    width: 22%;
+    height: 80%;
+}
+.productImg{
+    width: 84%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 12px;
+    
+
+
+}
+.productDetailsBox{
+    /* padding: 12px; */
+    width: 46%
+
+}
+.productName{
+    font-size: 20px;
+}
+.productDescription{
+    font-size: 14px;
+}
+.deleteButton{
+    /* background-color: red; */
+    border: none;
+    width: 20%;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 4px;
+    margin-top: 36px;
+}

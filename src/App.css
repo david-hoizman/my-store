@@ -1,0 +1,11 @@
+/* .App {
+  text-align: center;
+}
+ */
+ .App {
+  /* display: flex; */
+  justify-content: center; /* מרכז בציר X */
+  /* align-items: center; מרכז בציר Y */
+  /* height: 100vh; הגובה של העמוד */
+  /* text-align: center; */
+}

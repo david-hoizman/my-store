@@ -1,0 +1,87 @@
+/* .container{ */
+    /* position: relative; */
+    /* width: 100%; */
+    /* height: 20%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* height: 900px; */
+/* } */
+*{
+    box-sizing: border-box; /* חשוב להוסיף כדי שלא יקרה חריגה מהרוחב */
+  }
+.optionsMiniBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid 2px black; */
+    width: 100%;
+    height:11%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/* .productsGallery{ */
+    /* display: flex; */
+    
+    /* gap: 1%; */
+    /* border: solid 2px black; */
+    /* width: 100%; */
+    /* height: 100%; */
+/* } */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 750px; 
+}
+
+.productsGallery {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* flex-grow: 1;  */
+    border: solid 2px black;
+}
+.productsListGallery{
+    display: flex;
+    /* align-items: center; */
+    border: solid 2px black;
+    width: 54%;
+    height: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.singleProductView{
+    border: solid 2px black;
+    width: 46%;
+    height: 100%;
+    justify-content: center; 
+    align-items: center;
+}
+.addButton{
+    width: 8%;
+    height: 60%;
+    background-color: rgb(164, 235, 164);
+}
+.ff{
+    height: 100%;
+}
+.prevOrNextPageButton {
+    width: 8%;
+    height: 80%;
+    background-color: rgb(164, 235, 164);
+}
+
+.placeholder {
+    width: 8%;
+    height: 80%; 
+}
+.prevOrNextPageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4%;
+}

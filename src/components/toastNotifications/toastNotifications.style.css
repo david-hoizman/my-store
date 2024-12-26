@@ -1,0 +1,45 @@
+/* עיצוב כותרת של טוסט */
+.toast-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* עיצוב גוף של טוסט */
+  .toast-body {
+    font-size: 16px;
+  }
+  
+  /* צבעים לכל סוג טוסט */
+  .toast-success {
+    background-color: #d4edda;
+  }
+  
+  .toast-error {
+    background-color: #f8d7da;
+  }
+  
+  .toast-warning {
+    background-color: #fff3cd;
+  }
+  
+  .toast-info {
+    background-color: #d1ecf1;
+  }
+  
+  /* סגנון כפתור הסגירה של הטוסט */
+  .Toastify__close-button {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Toastify__close-button svg {
+    width: 12px;
+    height: 12px;
+  }
+  
